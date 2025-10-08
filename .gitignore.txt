@@ -1,0 +1,15 @@
+# Ignorar pastas de ambiente e caches Python
+__pycache__/
+.venv/
+*.pyc
+
+# Arquivos de log e configurações locais
+.env
+/tmp
+/app/*.log
+
+# Pastas de dados de container
+db_data/
+
+# Ignorar pasta de ambiente de build
+.pytest_cache/
